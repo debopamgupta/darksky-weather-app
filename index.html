@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather-Now</title>
+    <meta charset="us-ascii" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1 class="heading">
+      Weather
+    </h1>
+    <div>
+      <div class="wrapper">
+        <div class="details-div">
+          <div class="weather-details">
+            <h3 class="wplace"></h3>
+            <br />
+            <h3 class="wtemp"></h3>
+            <br />
+            <h3 class="wdesc"></h3>
+            <br />
+            <h3 class="wother"></h3>
+            <br />
+          </div>
+        </div>
+        <div>
+          <figure>
+            <canvas class="weather-icon" width="96" height="96"></canvas>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div id="more"></div>
+    <div class="hourly"></div>
+
+    <script src="./skycons.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
